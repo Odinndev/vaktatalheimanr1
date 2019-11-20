@@ -28,11 +28,12 @@
       
             <div class="uk-width-expand">
                <!-- ODINN -->
+
                 <p class="uk-text-meta uk-margin-remove-top">
                 <time class="fyrri" v-if="post.vaktir == 'fyrrivakt'">
                 <span class="cal" uk-icon="icon: calendar"></span><span class="date">{{ post.dagsetning | moment('timezone', 'Atlantic/Reykjavik', 'ddd ll') }}</span> 
                 <span class="timi" uk-icon="icon: clock"></span><span class="time">{{ post.dagsetning | moment("H:mm") }}</span>
-                <span class="vakt">Fyrri Vakt</span></time></p>
+                <span class="vakt">Fyrri Vakt}</span></time></p>
 
                 <p class="uk-text-meta uk-margin-remove-top">
                 <time class="seinni" v-if="post.vaktir == 'seinnivakt'">
@@ -80,7 +81,7 @@
                 <time class="annad" v-if="post.vaktir == 'annad'">
                 <span class="cal" uk-icon="icon: calendar"></span><span class="date">{{ post.dagsetning | moment('timezone', 'Atlantic/Reykjavik', 'ddd ll') }}</span> 
                 <span class="timi" uk-icon="icon: clock"></span><span class="time">{{ post.dagsetning | moment("H:mm") }}</span>
-                <span class="vakt">Annað</span></time></p>
+                <span class="vakt">{{ post.annad }}</span></time></p>
 
             </div>
 
