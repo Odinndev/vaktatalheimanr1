@@ -1,0 +1,9 @@
+query post($id: ID!) {  
+  post(id: $id) {
+      hver
+      dagsetning
+      vaktir
+      athugasemd
+      id
+  }
+}

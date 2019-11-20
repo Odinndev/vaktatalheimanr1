@@ -1,0 +1,8 @@
+query posts {  
+  posts {
+      hver
+      dagsetning
+      vaktir
+      athugasemd
+  }
+}

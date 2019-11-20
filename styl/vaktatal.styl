@@ -1,0 +1,597 @@
+@import "/base/_colors"
+@import "/base/_fonts"
+@import "/base/_mixins"
+@import "/base/typography"
+
+
+.vaktatal {
+
+ul.uk-breadcrumb {
+ background white
+ margin-bottom 0px
+ border-top 2px solid llpurple
+ border-bottom 2px solid llpurple
+
+li {
+
+a {
+ color gray
+}// a
+
+span  {
+ color llpurple
+}// span
+
+}// li
+
+}// ul.uk-breadcrumb
+
+// tabs
+ul.uk-tab-bottom {
+ background rgba(dark .1)
+ margin 0
+ padding 0
+
+&::before {
+ border none
+}// &::before
+
+li {
+ background llpurple
+ padding-left 32.5px
+ padding-right 33px
+ margin-left 0px
+ margin-right 0px
+
+a {
+ color white
+ border none
+
+span {
+ color llorange
+}// span
+
+}// a
+
+}// li
+
+li.uk-active {
+ background white
+ margin-left 0px
+
+a {
+ color llpurple
+ border none
+}// a
+
+}// li.uk-active
+
+}// ul.uk-tab-bottom
+
+// vaktatalid /o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o
+.uk-card {
+
+.uk-card-header {
+ max-height 25px
+}// .uk-card-header
+
+.uk-card-header {
+ padding-top 0px
+ padding-left 0
+ margin-top -8px
+
+.uk-grid-small {
+ margin 0
+ padding 0
+ 
+.uk-width-auto {
+ padding 0
+ margin-top 10px
+
+img {
+ margin-top -1px
+ 
+}// img
+
+}// .uk-width-auto
+
+.uk-width-expand {
+ //margin-left -8px
+ margin-left -15px
+
+h3.uk-card-title {
+ color recipe
+ font-size 13px
+
+}// h3
+
+p.uk-text-meta {
+ margin 0
+ padding 0
+
+time {
+
+// ODINN
+// fyrri vakt
+&.fyrri {
+ background rgba(white .7)
+ color white
+ padding-bottom 5px
+
+span.vakt {
+ background white
+ color llpurple
+ padding-bottom 5px
+ padding-left 15px
+ padding-right 15px
+
+}// span
+
+span.cal {
+
+svg {
+ color llpurple
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color llpurple
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.fyrri
+
+// seinni vakt
+&.seinni {
+ background rgba(fs .7)
+ color white
+ padding-bottom 5px
+
+
+span.vakt {
+ background fs
+ color white
+ padding-bottom 5px
+ padding-left 30px
+ padding-right 30px
+}// span
+
+span.cal {
+
+svg {
+ color red
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color red
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.seinni 
+
+// helgivakt vakt
+&.helgivakt {
+ background rgba(llorange .4)
+ color white
+
+
+span.vakt {
+ background llorange
+ color white
+ 
+ padding-left 15px
+ padding-right 15px
+
+}// span
+
+span.cal {
+
+svg {
+ color llorange
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color llorange
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.helgivakt  
+
+// varmahlid
+&.varmahlid {
+ background rgba(#9FD919 .4)
+ color green
+ padding-top 5px
+ padding-bottom 5px
+
+span.vakt {
+ background vhlid
+ color white
+ padding-top 5px
+ padding-bottom 5px
+ padding-left 15px
+ padding-right 15px
+}// span
+
+span.cal {
+
+svg {
+ color green
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color green
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.varmahlid  
+
+// fri
+&.fri {
+ background rgba(green .4)
+ color white
+
+
+span.vakt {
+ background green
+ color white
+ 
+ padding-left 15px
+ padding-right 15px
+}// span
+
+span.cal {
+
+svg {
+ color green
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color green
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.fri 
+
+// heida ////////////////////
+// morgunvakt
+&.morgun {
+ background rgba(blue .4)
+ color white
+
+
+span.vakt {
+ background blue
+ color white
+ 
+ padding-left 15px
+ padding-right 15px
+}// span
+
+span.cal {
+
+svg {
+ color blue
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color blue
+ width 11px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.morgun
+
+// kvold
+&.kvold {
+ background rgba(purple .4)
+ color white
+
+
+span.vakt {
+ background purple
+ color white
+ 
+ padding-left 30px
+ padding-right 30px
+}// span
+
+span.cal {
+
+svg {
+ color purple
+ width 13px
+ margin-top -1px
+ margin-left 2px
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color purple
+ width 11px
+ margin-top -1px
+ margin-left 2px 
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// %.kvold
+
+&.helgi {
+ background rgba(green .4)
+ color white
+
+
+span.vakt {
+ background green
+ color white
+ 
+ padding-left 40px
+ padding-right 40px
+}// span
+
+span.cal {
+
+svg {
+ color green
+ width 13px
+ margin-top -1px
+ margin-left 2px 
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color green
+ width 11px
+ margin-top -1px
+ margin-left 2px 
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.helgi
+
+// annad
+&.annad {
+ background rgba(purple .4)
+ color white
+
+
+span.vakt {
+ background purple
+ color white
+ 
+ padding-left 15px
+ padding-right 15px
+}// span
+
+span.cal {
+
+svg {
+ color purple
+ width 13px
+ margin-top -1px
+ margin-left 2px 
+ margin-right 2px
+}// svg
+
+}// span
+
+span.date {
+ font-size 13px
+
+}// span.date
+
+span {
+
+svg {
+ color purple
+ width 11px
+ margin-top -1px
+ margin-left 2px 
+ margin-right 2px
+}// svg
+
+}// span
+
+span.time {
+ font-size 11px
+}// span.time
+
+}// &.annad 
+
+span.vakt {
+ color recipe
+}// span.vakt
+
+}// time
+
+}// p.uk-text-meta
+
+}// .uk-width-expand
+
+}// .uk-grid-small
+
+}// .uk-card-header
+
+.uk-card-footer {
+ background rgba(dark .1)
+ padding 0
+ margin-top -1px
+
+a.uk-accordion-title {
+ color recipe
+ font-size 11px
+
+&::before {
+ width 0.8em
+ height 0.8em
+ margin-top 4px
+ margin-left 5px
+}// &::before
+
+}// a
+
+}// .uk-card-footer
+
+}// .uk-card
+
+}// .vaktatal
