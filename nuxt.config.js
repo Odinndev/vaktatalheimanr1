@@ -22,6 +22,11 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+  
+  /* Pwa */
+  manifest: {
+    theme_color: '#FFFFFF',
+   },
   /*
   ** Global CSS
   */

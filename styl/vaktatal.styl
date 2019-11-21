@@ -73,10 +73,10 @@ a {
 
 // height
 .uk-card-header {
+ max-height 47px
+ margin-top -8px
  padding-top 0px
  padding-left 0
- max-height 34px
- margin-top -8px
 
 .uk-grid-small {
  margin 0
@@ -87,7 +87,7 @@ a {
  margin-top 10px
 
 img {
- margin-top -1px
+ margin-top 0px
  
 }// img
 
@@ -109,20 +109,25 @@ p.uk-text-meta {
  padding 0
 
 time {
+ display block
+ width 114%
+ border-bottom 2px solid llpurple
 
 // ODINN
 // fyrri vakt
 &.fyrri {
- background rgba(white .7)
- color white
- padding-top 3px
- padding-bottom 3px
+ background white
+ color gray
+ font-size 18px
+ padding-top 6px
+ padding-bottom 6px
+ border-bottom 2px solid dark
 
 span.vakt {
- background white
- color llpurple
- padding-top 3px
- padding-bottom 3px
+ background llpurple
+ color white
+ padding-top 1px
+ padding-bottom 1px
  padding-left 15px
  padding-right 15px
  box()
@@ -131,256 +136,321 @@ span.vakt {
 span.cal {
 
 svg {
- color white
- width 13px
+ color gray
+ width 15px
  margin-top -1px
  margin-left 2px
  margin-right 2px
- box()
 }// svg
 
 }// span
 
+span.dag {
+ color llpurple
+ font-size 14px
+ text-transform uppercase
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background llpurple
+ color white
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
 svg {
- color white
- width 11px
+ color gray
+ width 13px
  margin-top -1px
- margin-left 2px
  margin-right 2px
- box1()
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ color dark
+ font-size 14px
 }// span.time
 
 }// &.fyrri
 
 // seinni vakt
 &.seinni {
- background rgba(gray .7)
- color white
- padding-top 3px
- padding-bottom 3px
+ background white
+ color gray
+ font-size 18px !important
+ padding-top 5px
+ padding-bottom 7px
+ border-bottom 2px solid dark
 
 span.vakt {
- background gray
+ background lblue
  color white
- padding-top 3px
- padding-bottom 3px
- padding-left 30px
- padding-right 30px
- box()
+ padding-top 1px
+ padding-bottom 1px
+ padding-left 5px
+ padding-right 5px
 }// span
 
 span.cal {
 
 svg {
- color white
- width 13px
+ color gray
+ width 15px
  margin-top -1px
  margin-left 2px
  margin-right 2px
- box()
 }// svg
 
 }// span
 
+span.dag {
+ color lblue
+ text-transform uppercase
+ font-size 14px
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background lblue
+ color white
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
 svg {
- color white
- width 11px
+ color gray
+ width 13px
  margin-top -1px
- margin-left 2px
  margin-right 2px
- box()
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ color dark
+ font-size 14px
 }// span.time
 
 }// &.seinni 
 
 // helgivakt vakt
 &.helgivakt {
- background rgba(lblue .7)
- color white
- padding-top 3px
- padding-bottom 3px
-
+ background white
+ color llpurple
+ font-size 18px
+ padding-top 6px
+ padding-bottom 6px
+ border-bottom 2px solid dark
 
 span.vakt {
- background lblue
+ background llorange
  color white
- padding-top 3px
- padding-bottom 3px
- padding-left 15px
- padding-right 15px
- box()
+ padding-top 1px
+ padding-bottom 1px
+ margin-top -1px
+ padding-left 5px
+ padding-right 5px
 }// span
 
 span.cal {
 
 svg {
- color white
- width 13px
+ color gray
+ width 15px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 }// svg
 
 }// span
 
+span.dag {
+ color llorange
+ text-transform uppercase
+ font-size 14px
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background llorange
+ color white
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
 svg {
- color white
- width 11px
+ color gray
+ width 13px
  margin-top -1px
- margin-left 2px
  margin-right 2px
- box()
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ color dark
+ font-size 14px
 }// span.time
 
 }// &.helgivakt  
 
 // varmahlid
 &.varmahlid {
- background rgba(llpurple .7)
- color white
- padding-top 3px
- padding-bottom 3px
+ background white
+ color gray
+ font-size 18px
+ padding-top 6px
+ padding-bottom 6px
+ border-bottom 2px solid dark
 
 span.vakt {
- background llpurple
+ background vhlid
  color white
- padding-top 3px
- padding-bottom 3px
+ padding-top 1px
+ padding-bottom 1px
+ margin-top -1px
  padding-left 15px
  padding-right 15px
- box()
 }// span
 
 span.cal {
 
 svg {
- color white
- width 13px
+ color gray
+ width 15px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 }// svg
 
 }// span
 
+span.dag {
+ color vhlid
+ text-transform uppercase
+ font-size 14px
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background vhlid
+ color white
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
 svg {
- color white
- width 11px
+ color gray
+ width 13px
  margin-top -1px
- margin-left 2px
  margin-right 2px
- box() 
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ color dark
+ font-size 14px
 }// span.time
-
 }// &.varmahlid  
 
 // fri
 &.fri {
- background rgba(green .7)
+ background llgreen
  color white
- padding-top 3px
- padding-bottom 3px
+ font-size 18px
+ padding-top 6px
+ padding-bottom 6px
 
 span.vakt {
  background green
  color white
  padding-top 3px
  padding-bottom 3px
+ margin-top -3px
  padding-left 15px
  padding-right 15px
- box()
 }// span
 
 span.cal {
 
 svg {
  color white
- width 13px
+ width 15px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 }// svg
 
 }// span
 
+span.dag {
+ color green
+ text-transform uppercase
+ font-size 14px
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background green
+ color white
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 }// &.fri 
 
 // heida ////////////////////
 // morgunvakt
 &.morgun {
- background rgba(lbrunn .7)
+ background llpurple
  color white
  padding-top 3px
  padding-bottom 3px
+ border-bottom 2px solid dark
 
 span.vakt {
- background lbrunn
- color white
- padding-top 3px
- padding-bottom 3px
+ background white
+ color llpurple
+ padding-top 2px
+ padding-bottom 2px
  padding-left 15px
  padding-right 15px
- box()
 }// span
 
 span.cal {
@@ -390,17 +460,26 @@ svg {
  width 13px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
 }// span
 
+span.dag {
+ text-transform uppercase
+ font-size 18px
+}// span.dag
+
 span.date {
- font-size 13px
+ color llorange
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
@@ -409,8 +488,7 @@ svg {
  width 11px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
@@ -424,19 +502,19 @@ span.time {
 
 // kvold
 &.kvold {
- background rgba(brunn .4)
+ background llpurple
  color white
  padding-top 3px
  padding-bottom 3px
+ border-bottom 2px solid dark
 
 span.vakt {
- background brunn
+ background lbrunn
  color white
- padding-top 3px
- padding-bottom 3px
+ padding-top 2px
+ padding-bottom 2px
  padding-left 30px
  padding-right 30px
- box()
 }// span
 
 span.cal {
@@ -446,17 +524,26 @@ svg {
  width 13px
  margin-top -1px
  margin-left 2px
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
 }// span
 
+span.dag {
+ text-transform uppercase
+ font-size 18px
+}// span.dag
+
 span.date {
- font-size 13px
+ color llorange
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
@@ -465,8 +552,7 @@ svg {
  width 11px
  margin-top -1px
  margin-left 2px 
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
@@ -480,111 +566,132 @@ span.time {
 
 // helgi
 &.helgi {
- background rgba(green .4)
+ background llpurple
  color white
+ font-size 18px
  padding-top 3px
  padding-bottom 3px
+ border-bottom 2px solid dark
 
 span.vakt {
- background green
- color white
+ background white
+ color llpurple
  padding-top 3px
  padding-bottom 3px
  padding-left 40px
  padding-right 40px
- box()
 }// span
 
 span.cal {
 
 svg {
  color white
- width 13px
+ width 15px
  margin-top -1px
  margin-left 2px 
  margin-right 2px
- box()
 }// svg
 
 }// span
 
+span.dag {
+ text-transform uppercase
+ font-size 18px
+}// span.dag
+
 span.date {
- font-size 13px
+ color llorange
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color white
+}// span.month
 
 span {
 
 svg {
  color white
- width 11px
+ width 15px
  margin-top -1px
  margin-left 2px 
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ font-size 18px
 }// span.time
 
 }// &.helgi
 
 // annad
 &.annad {
- background rgba(ryellow .7)
- color dark
- padding-top 3px
- padding-bottom 3px
+ background dark
+ color white
+ font-size 18px
+ padding-top 6px
+ padding-bottom 6px
+ border-bottom 2px solid dark
 
 span.vakt {
- background ryellow
- color dark
- padding-top 3px
- padding-bottom 3px
+ background white
+ color llpurple
+ padding-top 1px
+ padding-bottom 1px
+ margin-top -1px
  padding-left 15px
  padding-right 15px
- box1()
 }// span
 
 span.cal {
 
 svg {
  color white
- width 13px
+ width 15px
  margin-top -1px
  margin-left 2px 
- margin-right 2px
- box() 
+ margin-right 2px 
 
 }// svg
 
 }// span
 
+span.dag {
+ color white
+ text-transform uppercase
+ font-size 14px
+ margin-left 10px
+}// span.dag
+
 span.date {
- font-size 13px
+ background white
+ color llpurple
+ padding 3px
+ font-size 18px
 
 }// span.date
+
+span.month {
+ color gray
+}// span.month
 
 span {
 
 svg {
- color white
- width 11px
+ color gray
+ width 13px
  margin-top -1px
- margin-left 2px 
  margin-right 2px
- box() 
-
 }// svg
 
 }// span
 
 span.time {
- font-size 11px
+ font-size 14px
 }// span.time
 
 }// &.annad 
