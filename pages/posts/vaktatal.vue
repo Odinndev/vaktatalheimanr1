@@ -9,11 +9,14 @@
 
     <ul class="uk-tab-bottom" uk-tab>
         <li><a href="#">Óðinn</a></li>
-        <li><a href="#">Heiða</a></li>
-        <li><a href="#"><span>!</span>Frí<span>!</span></a></li>
+        <li><a href="#">Viðburðir</a></li>
+        <li><a href="#">Frí</a></li>
     </ul>
 
-<div class="uk-card" v-for="post in posts">
+
+<vaktataldesk />
+
+<div class="uk-card mobile" v-for="post in posts">
 
     <div class="uk-card-header">
 
@@ -132,9 +135,14 @@
 import axios from 'axios'
 import strapi from '~/utils/Strapi'
 import { mapMutations } from 'vuex'
+import vaktataldesk from './vaktataldesk'
 
 export default {
   
+components: {
+ vaktataldesk,
+},
+
   computed: {
     // Set your username thanks to your getter
     username() {

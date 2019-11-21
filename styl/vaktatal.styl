@@ -69,7 +69,12 @@ a {
 }// ul.uk-tab-bottom
 
 // vaktatalid /o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o/o
-.uk-card {
+.uk-card.mobile {
+
+@media (min-width: 768px) {
+ display none
+
+}// @media only screen and (min-width: 768px)
 
 // height
 .uk-card-header {
@@ -730,6 +735,6 @@ a.uk-accordion-title {
 
 }// .uk-card-footer
 
-}// .uk-card
+}// .uk-card.mobile
 
 }// .vaktatal
